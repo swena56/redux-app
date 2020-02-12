@@ -13,9 +13,10 @@ export const setVisibilityFilter = (filter) => ({
 export const toggleTodo = (id) => ({
   type: 'TOGGLE_TODO',
   id
-})
+});
 
-export const resetDeck = () => ({	type: 'RESET_DECK' })
+export const resetDeck = () => ({ type: 'RESET_DECK' });
+export const drawCard = () => ({ type: 'GET_CARD' });
 
 
 
